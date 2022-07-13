@@ -1,4 +1,7 @@
 # VHDL Alarm Clock
+VHDL alarm clock, with ability to set/display current time, set an alarm, and snooze/dismiss an alarm.  
+Time is displayed on a 16x2 LCD, and a beeping buzzer is used for the alarm sound.  
+
 alarm.vhd is the main entity.
 
 This design was intended for a Terasic De-10 Lite FPGA.  

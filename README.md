@@ -1,4 +1,4 @@
-# VHDL_Alarm_Clock
+# VHDL Alarm Clock
 alarm.vhd is the main entity.
 
 This design was intended for a Terasic De-10 Lite FPGA.  

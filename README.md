@@ -13,7 +13,7 @@ https://github.com/Maeur1/16x2-LCD-Controller-VHDL
 
 ***
 
-##Components
+## Components
 
 • Clock (Fig.2): This is the top-level entity where all the other components are used and connected to each other. The counters in this component are incremented every second when the time is being displayed, or pauses them when the user is setting time and incrementing them manually (the overflows of the counters only affect each other when the user is not setting the time).  
 • Counter_1_second: This is a counter that accepts a 50MHz clock signal and overflows every 50000000 clock cycles (1 second). It also has an output called ‘buzz’ which is a pulse signal that lasts half a second (25000000 clock cycles) (Used to flash currently selected digit and to make the buzzer beep).  
